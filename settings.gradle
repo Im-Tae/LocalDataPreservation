@@ -1,0 +1,3 @@
+include ':LocalDataPreservation'
+include ':app'
+rootProject.name = "LocalDataPreservationApp"
