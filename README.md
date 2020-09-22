@@ -76,7 +76,11 @@ dependencies {
 **기본**
 
 ```kotlin
+// kotlin
 LocalDataPreservation.setData["key"] = value
+
+// Java
+LocalDataPreservation.Companion.getSetData().put("key", value);
 ```
 
 
@@ -105,7 +109,11 @@ LocalDataPreservation.setData["user"] = User("임리프", 19)
 **기본**
 
 ```kotlin
+// kotlin
 LocalDataPreservation.getData("key")
+
+// Java
+LocalDataPreservation.Companion.getData("key")
 ```
 
 
