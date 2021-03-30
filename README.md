@@ -130,6 +130,20 @@ LocalDataPreservation.getData("user") as User
 
 </br>
 
+## 업데이트 노트
+
+#### v1.0
+
+
+
+</br>
+
+#### v1.1
+
+기존 데이터가 존재하지 않으면 뜨는 **'존재하지 않는 Key 입니다.' Exception** 대신 **""** (공백)을 반환하도록 수정했습니다.
+
+</br>
+
 ## 라이센스
 
 ```

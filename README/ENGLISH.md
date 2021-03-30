@@ -121,6 +121,20 @@ LocalDataPreservation.getData("user") as User
 
 </br>
 
+## Update Note
+
+#### v1.0
+
+
+
+</br>
+
+#### v1.1
+
+Fixed it to return **blanks** if the data doesn't exist.
+
+</br>
+
 ## License
 
 ```

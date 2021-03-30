@@ -20,7 +20,8 @@ class LocalDataPreservation {
                 if (i.key == key)
                     return i.value
 
-            throw Exception("LocalDataPreservation | 존재하지 않는 Key 입니다.")
+            // throw Exception("LocalDataPreservation | 존재하지 않는 Key 입니다.")
+            return ""
         }
     }
 
